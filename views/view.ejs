@@ -1,0 +1,15 @@
+<img src="/img/coffee.jpg" alt="coffee" class="small-img">
+<h1><%= coffee.name %></h1>
+<div class="card">
+  <h3>Coffee Type : <%= coffee.category %></h3>
+  <h3>Specila Extra Ingredient</h3>
+  <ol>
+    <% coffee.special.forEach(element => {%>
+      <li><%= element %></li>
+    <%}); %>
+  </ol>
+</div>
+<div>
+  <a href="/delete/<%= coffee._id %>" class="btn">Complete Order</a>
+  <a href="/coffee" class="btn">Back Home</a>
+</div>

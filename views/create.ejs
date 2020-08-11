@@ -1,0 +1,29 @@
+<img src="/img/coffee.jpg" alt="coffee" class="small-img">
+    <h1>Make Your Order</h1>
+    <a href="/" class="btn-outline">Home</a>
+    <form action="/create" method="POST">
+      <div class="form-block">
+        <label for="name">Order Name</label>
+        <input type="text" name="name" id="name">
+      </div>
+      
+      <div class="form-block">
+        <label for="category">Category</label>
+        <select name="category" id="category">
+          <option value="Cold coffee">Cold Coffee</option>
+          <option value="Hot coffee">Hot Coffee</option>
+          <option value="Balck coffee">Balck Coffee</option>
+        </select>
+      </div>
+      
+      <div class="form-block">
+        <label for="special">Special Extra Ingredients</label>
+        <input type="checkbox" name="special" id="special" value="Balck Pwoder"> Black Powder <br>
+        <input type="checkbox" name="special" id="special" value="White Milk"> White Milk <br>
+        <input type="checkbox" name="special" id="special" value="Chocolate"> Chocolate <br>
+        <input type="checkbox" name="special" id="special" value="Stick"> Stcik
+      </div>
+      
+
+      <input type="submit" value="Order" class="btn mt">
+    </form>

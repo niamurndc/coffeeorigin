@@ -1,0 +1,9 @@
+<h1>All Orders</h1>
+
+  <%coffees.forEach(coffee => { %>
+    <div class="block">
+      <img src="/img/coffee.jpg" alt="coffee" class="img-sm">
+      <h4><%= coffee.name %></h4>
+      <a href="/view/<%= coffee._id%>" class="btn">View Order</a>
+    </div>
+  <% }) %>

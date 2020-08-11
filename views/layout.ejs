@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoffeeShop</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <nav class="nav-right">
+    <% if (localStorage.getItem('uname')) { %>
+      <a href="#" class="nav-link"><%= localStorage.getItem('uname')%></a>
+      <a href="/logout" class="nav-link">Logout</a>
+    <% }else{ %>
+      <a href="/login" class="nav-link">Login</a>
+    <% } %>
+  </nav>
+  <div class="container">
+    <%-body%>
+  </div>
+</body>
+</html>

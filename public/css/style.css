@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Patrick Hand', cursive;
+  color: #2f1010;
+}
+
+/* -- utility classes--- */
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 93vh;
+}
+
+.mt{
+  margin-top: 10px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.btn{
+  background-color: #2f1010;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.btn-outline{
+  color: #2f1010;
+  background-color: #fff;
+  border-radius: 5px;
+  border: #2f1010 1px solid;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.btn-outline:hover{
+  background-color: #2f1010;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  color: #2f1010;
+  background-color: #fff;
+  border-radius: 5px;
+  border: #2f1010 1px solid;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* navbar style */
+.nav-right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 7vh;
+  margin-right: 40px;
+}
+
+.nav-link{
+  color: #2f1010;
+  text-decoration: none;
+  margin: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* ---custom css--- */
+
+.main-img{
+  height: 170px;
+  width: 500px;
+  border-radius: 10px 10px 0 0;
+}
+
+.main-title{
+  font-size: 70px;
+  text-transform: uppercase;
+  border-bottom: #2f1010 2px solid;
+}
+
+.small-img{
+  height: 80px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+label{
+  display: block;
+  margin-top: 10px;
+}
+
+input[type=text], input[type=password], select{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #2f1010;
+  color: #2f1010;
+}
+
+.block{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 5px 0;
+  height: 70px;
+  align-items: center;
+  border-radius: 10px;
+  border: #2f1010 1px solid;
+  padding: 0 10px;
+}
+
+.img-sm{
+  height: 60px;
+  width: 60px;
+}
+
+.card h3{
+  border-bottom: 1px solid #2f1010;
+}
+
+
